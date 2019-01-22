@@ -20,7 +20,7 @@ aling_berta_bahay_kubo = BahayKubo(
 mustard = Vegetable(
     id="1001",
     name="Mustard/Mustasa",
-    picking_date="June",
+    picking_month="June",
     fee="35",
     is_organic=True,
 )
@@ -28,7 +28,7 @@ mustard = Vegetable(
 eggplant = Vegetable(
     id="1002",
     name="Eggplant/Talong",
-    picking_date="May",
+    picking_month="May",
     fee="65",
     is_organic=False,
 )
@@ -36,14 +36,14 @@ eggplant = Vegetable(
 tomato = Vegetable(
     id="1003",
     name="Tomato/Kamatis",
-    picking_date="December",
+    picking_month="December",
     fee="35",
 )
 
 loofah = Vegetable(
     id="1004",
     name="Loofah/Patola",
-    picking_date="September",
+    picking_month="September",
     fee="20",
     is_organic="False",
 )
